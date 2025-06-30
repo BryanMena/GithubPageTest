@@ -1,72 +1,62 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: 'Inter', sans-serif;
-  background: #f0f4f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
 }
 
-.card {
-  background: #02aa91;
+.main-header {
+  background-color: #02aa91;
   color: white;
-  text-align: center;
-  padding: 2rem;
-  border-radius: 12px;
-  max-width: 400px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  padding: 2rem 1rem;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid white;
+  width: 120px;
+  height: auto;
   margin-bottom: 1rem;
 }
 
-h1 {
-  font-size: 1.8rem;
+.main-header h1 {
   margin: 0.5rem 0;
+  font-size: 2rem;
 }
 
-.description {
-  font-size: 1rem;
-  line-height: 1.5;
-  margin: 1.5rem 0;
+.subtext {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
-.buttons {
+.social-links {
+  margin: 2rem auto;
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-.btn {
+.nav-link {
   text-decoration: none;
-  color: white;
-  padding: 0.75rem 1.25rem;
-  border-radius: 8px;
   font-weight: bold;
-  transition: background 0.3s ease;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  transition: background 0.3s;
 }
 
 .facebook {
-  background: #3b5998;
+  background-color: #3b5998;
 }
 
 .facebook:hover {
-  background: #2d4373;
+  background-color: #2d4373;
 }
 
 .linkedin {
-  background: #0077b5;
+  background-color: #0077b5;
 }
 
 .linkedin:hover {
-  background: #005582;
+  background-color: #005582;
 }
