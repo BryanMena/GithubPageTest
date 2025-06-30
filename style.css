@@ -1,124 +1,54 @@
-Skip to content
-Navigation Menu
-BryanMena
-GithubPageTest
-
-Type / to search
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Commit b5712cb
-BryanMena
-BryanMena
-authored
-4 minutes ago
-·
-·
-Verified
-Update style.css
-main
-1 parent 
-59d2859
- commit 
-b5712cb
-File tree
-Filter files…
-style.css
-1 file changed
-+43
--28
-lines changed
-Search within code
- 
-‎style.css
-+43
--28
-Lines changed: 43 additions & 28 deletions
-Original file line number	Diff line number	Diff line change
-@@ -1,47 +1,62 @@
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  background: #f4f4f4;
   font-family: 'Segoe UI', sans-serif;
   background-color: #ffffff;
   color: #333;
   text-align: center;
 }
 
-header {
-  background: #2c3e50;
 .main-header {
   background-color: #02aa91;
   color: white;
-  padding: 2rem;
-  text-align: center;
   padding: 2rem 1rem;
 }
 
-.projects {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
 .logo {
   width: 120px;
   height: auto;
   margin-bottom: 1rem;
 }
 
-.card {
-  background: white;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 .main-header h1 {
   margin: 0.5rem 0;
   font-size: 2rem;
 }
 
-button {
-  background: #3498db;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
 .subtext {
   font-size: 1.1rem;
   line-height: 1.6;
 }
+
 .social-links {
   margin: 2rem auto;
   display: flex;
   justify-content: center;
   gap: 2rem;
 }
+
 .nav-link {
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
-  cursor: pointer;
   color: white;
   transition: background 0.3s;
 }
 
-button:hover {
-  background: #2980b9;
 .facebook {
   background-color: #3b5998;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #ecf0f1;
 .facebook:hover {
   background-color: #2d4373;
 }
@@ -126,14 +56,7 @@ footer {
 .linkedin {
   background-color: #0077b5;
 }
+
 .linkedin:hover {
   background-color: #005582;
 }
-0 commit comments
-Comments
-0
- (0)
-Comment
-You're not receiving notifications from this thread.
-
-Update style.css · BryanMena/GithubPageTest@b5712cb0 results
