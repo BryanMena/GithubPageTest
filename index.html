@@ -3,24 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fundación Emprende Hoy</title>
+  <title>Mi Portafolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main class="card">
-    <img src="logo.jpg" alt="Logo Fundación Emprende Hoy" class="logo" />
-    <h1>Fundación Emprende Hoy</h1>
-    <p class="description">
-      Consejo de Innovación I+D+I 🇸🇻<br>
-      Juntos impulsamos el talento jóven<br>
-      y mejoramos mipymes, prácticando<br>
-      la solidaridad y las tecnologías web3.
-    </p>
-    <div class="buttons">
-      <a href="https://www.facebook.com/Org.EmprendeHoy/" target="_blank" class="btn facebook">Facebook</a>
-      <a href="https://www.linkedin.com/company/fundacionemprendehoy/posts/?feedView=all" target="_blank" class="btn linkedin">LinkedIn</a>
+  <header>
+    <h1>Hola, soy Ash</h1>
+    <p>Desarrollador Web | Entusiasta de la Tecnología</p>
+  </header>
+
+  <section class="projects">
+    <h2>Proyectos Destacados</h2>
+    <div class="card">
+      <h3>Mi Calculadora</h3>
+      <p>Una simple calculadora hecha en JavaScript.</p>
+      <button onclick="verProyecto('https://github.com/tuusuario/calculadora')">Ver en GitHub</button>
     </div>
-  </main>
+    <div class="card">
+      <h3>To-Do App</h3>
+      <p>Lista de tareas con almacenamiento local.</p>
+      <button onclick="verProyecto('https://github.com/tuusuario/todo-app')">Ver en GitHub</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Ash. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
